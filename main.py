@@ -70,7 +70,7 @@ class Bot(BaseBot):
                   except:
                       pass
               else:
-                  await self.highrise.teleport(user.id,Position(x=0.0, y=0.0, z=0.0, facing='FrontRight'))
+                  await self.highrise.teleport(user.id,Position(x=11.5, y=14.0, z=13.0, facing='FrontRight'))
 
         if message.startswith("!down"):
               split = message.split()
