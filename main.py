@@ -27,7 +27,7 @@ class Bot(BaseBot):
         await self.highrise.walk_to(Position(14.5 , 0.5 , 4.0 , "FrontRight"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
-        await self.highrise.send_whisper(user.id,f"🔥Bienvenido A ★彡[Night Wave]彡★🔥 {user.username} si necesitas ayuda usa !help  ")
+        await self.highrise.send_whisper(user.id,f"🔞❤️𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗔 𝗣𝗮𝗿𝗾𝘂𝗲 𝗦𝗶𝗻𝗴𝗮𝗽𝘂𝗿, 𝗘𝘀𝗽𝗲𝗿𝗼 𝗤𝘂𝗲 𝗗𝗶𝘀𝗳𝗿𝘂𝘁𝗲 𝗖𝗼𝗻 𝗟𝗮 𝗠𝗲𝗷𝗼𝗿 𝗠𝘂̀𝘀𝗶𝗰𝗮 𝗬 𝗣𝗿𝗼𝗻𝘁𝗼 𝗛𝗮𝗯𝗿𝗮́ 𝗘𝘃𝗲𝗻𝘁𝗼 𝗡𝗼 𝗧𝗲 𝗟𝗼 𝗣𝗶𝗲𝗿𝗱𝗲🔞❤️ {user.username} si necesitas ayuda usa !help  ")
    
         await self.highrise.send_emote("hcc-jetpack")
       
