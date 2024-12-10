@@ -65,7 +65,7 @@ class Bot(BaseBot):
                       for u in users:
                           u_give = str("@") + str((u.username).lower())
                           if str((u_give).lower()).strip() == str(name).strip():
-                              await self.highrise.teleport(u.id,Position(x=15.0, y=10.0, z=5.40, facing='FrontRight')) 
+                              await self.highrise.teleport(u.id,Position(x=15.0, y=6.50, z=5.40, facing='FrontRight')) 
                               break
                   except:
                       pass
