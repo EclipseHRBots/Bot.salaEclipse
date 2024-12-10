@@ -65,12 +65,12 @@ class Bot(BaseBot):
                       for u in users:
                           u_give = str("@") + str((u.username).lower())
                           if str((u_give).lower()).strip() == str(name).strip():
-                              await self.highrise.teleport(u.id,Position(x=14.10, y=12.8, z=11.20, facing='FrontRight')) 
+                              await self.highrise.teleport(u.id,Position(x=14.50, y=11.12, z=11.20, facing='FrontRight')) 
                               break
                   except:
                       pass
               else:
-                  await self.highrise.teleport(user.id,Position(x=14.10, y=12.8, z=11.20, facing='FrontRight'))
+                  await self.highrise.teleport(user.id,Position(x=14.50, y=11.12, z=11.20, facing='FrontRight'))
 
         if message.startswith("!down"):
               split = message.split()
