@@ -52,7 +52,7 @@ class Bot(BaseBot):
                   except:
                       pass
               else:
-                  await self.highrise.teleport(user.id,Position(x=15.5, y=11.25, z=13.0, facing='FrontRight'))
+                  await self.highrise.teleport(user.id,Position(x=1, y=25, z=7, facing='FrontRight'))
 
         if message.startswith("!dj"):
           if user.username in moderators:
