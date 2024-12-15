@@ -302,39 +302,39 @@ class Bot(BaseBot):
             await self.highrise.chat(f"{user.username} all activation codes must be used >> ! or/")
             await self.highrise.send_emote("dance-floss")
           
-        if        message.startswith("😡") or      message.startswith("🤬") or      message.startswith("😤") or             message.startswith("🤨") or             message.startswith("😒") or message.startswith("🙄"):
+        if        message.startswith("boxer") or      message.startswith("") or      message.startswith("") or             message.startswith("") or             message.startswith("") or message.startswith(""):
             await self.highrise.send_emote("emote-boxer",user.id)
    
-        if        message.startswith("🤔") or      message.startswith("🧐") or      message.startswith("🥸") or             message.startswith("🫤") or message.startswith("😕"):
+        if        message.startswith("confused") or      message.startswith("") or      message.startswith("") or             message.startswith("") or message.startswith(""):
             await self.highrise.send_emote("emote-confused",user.id)
 
-        if        message.startswith("🤣") or      message.startswith("😂") or             message.startswith("ja") or             message.startswith("Ha") or         message.startswith("Ka") or           message.startswith("Ja") or           message.startswith("ha") or          message.startswith("ks") or             message.startswith("kk") or             message.startswith("Kk") or message.startswith("😁") or message.startswith("😀"):
+        if        message.startswith("") or      message.startswith("") or      message.startswith("") or             message.startswith("") or message.startswith(""):
             await self.highrise.send_emote("emote-laughing",user.id)
 
-        if        message.startswith("😗") or      message.startswith("😘") or      message.startswith("😙") or             message.startswith("💋") or             message.startswith("😚"):
+        if        message.startswith("kiss") or      message.startswith("") or      message.startswith("") or             message.startswith("") or             message.startswith(""):
             await self.highrise.send_emote("emote-kiss",user.id)
             await self.highrise.send_emote("emote-blowkisses")
 
-        if        message.startswith("😊") or      message.startswith("🥰") or      message.startswith("😳") or message.startswith("🤗"):
+        if        message.startswith("uwu") or      message.startswith("") or      message.startswith("") or message.startswith(""):
             await self.highrise.send_emote("idle-uwu",user.id)
             await self.highrise.send_emote("emote-blowkisses")
 
-        if        message.startswith("🤢") or      message.startswith("🤮") or      message.startswith("🤧") or             message.startswith("😵‍💫") or message.startswith("🤒"):
+        if        message.startswith("") or      message.startswith("") or      message.startswith("") or             message.startswith("😵‍💫") or message.startswith("🤒"):
             await self.highrise.send_emote("emoji-gagging",user.id)
 
-        if        message.startswith("😱") or      message.startswith("😬") or      message.startswith("😰") or             message.startswith("😫") or message.startswith("😨"):
+        if        message.startswith("nervous") or      message.startswith("") or      message.startswith("") or             message.startswith("") or message.startswith(""):
             await self.highrise.send_emote("idle-nervous",user.id)
 
-        if message.startswith("🤯"):
+        if message.startswith(""):
             await self.highrise.send_emote("emote-headblowup",user.id)
 
-        if        message.startswith("☺️") or      message.startswith("🫣") or       message.startswith("😍") or      message.startswith("🥺") or message.startswith("🥹"):
+        if        message.startswith("☺") or      message.startswith("") or       message.startswith("") or      message.startswith("") or message.startswith(""):
             await self.highrise.send_emote("emote-shy2",user.id)
 
-        if        message.startswith("😏") or     message.startswith("🙃") or     message.startswith("🤤") or     message.startswith("😋") or     message.startswith("😏") or message.startswith("😈"):
+        if        message.startswith("lust") or     message.startswith("") or     message.startswith("") or     message.startswith("") or     message.startswith("") or message.startswith(""):
             await self.highrise.send_emote("emote-lust",user.id)           
 
-        if        message.startswith("🥵") or message.startswith("🫠"):
+        if        message.startswith("hot") or message.startswith(""):
             await self.highrise.send_emote("emote-hot",user.id)
                    
         if        message.startswith("!wrong") or   message.startswith("wrong") or      message.startswith("/wrong") or      message.startswith("Wrong") or message.startswith("1"):
@@ -361,18 +361,18 @@ class Bot(BaseBot):
             await self.highrise.send_emote("emote-kiss",user.id)
             await self.highrise.chat(f" You will like this emote {user.username} 😍")
 
-        if        message.startswith("/no") or      message.startswith("no") or            message.startswith("!no") or      message.startswith("No") or message.startswith("7"):
+        if        message.startswith("") or      message.startswith("") or            message.startswith("") or      message.startswith("") or message.startswith("7"):
             await self.highrise.send_emote("emote-no",user.id)
             await self.highrise.chat(f" You will like this emote {user.username} 😍")
-        if        message.startswith("/sad") or      message.startswith("!sad") or    message.startswith("sad") or     message.startswith("Sad") or message.startswith("8"):
+        if        message.startswith("") or      message.startswith("") or    message.startswith("sad") or     message.startswith("Sad") or message.startswith("8"):
             await self.highrise.send_emote("emote-sad",user.id)
             
 
-        if        message.startswith("/yes") or      message.startswith("!yes") or    message.startswith("yes") or     message.startswith("Yes") or message.startswith("9"):
+        if        message.startswith("") or      message.startswith("") or    message.startswith("yes") or     message.startswith("Yes") or message.startswith("9"):
             await self.highrise.send_emote("emote-yes",user.id)
             
 
-        if        message.startswith("/lau") or   message.startswith("laughing") or   message.startswith("Laughing") or   message.startswith("/laughing") or   message.startswith("!laughing") or      message.startswith("!lau") or    message.startswith("Lau") or     message.startswith("lau") or message.startswith("10"):
+        if        message.startswith("") or   message.startswith("laughing") or   message.startswith("Laughing") or   message.startswith("") or    or message.startswith("10"):
             await self.highrise.send_emote("emote-laughing",user.id)
             
         if        message.startswith("/hello") or message.startswith("hello") or      message.startswith("!hello") or      message.startswith("Hello") or message.startswith("11"):
