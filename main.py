@@ -24,7 +24,7 @@ pescar = ["🥈YOU WON THE MEDAL: SILVER FISHERMAN🥈","🥉YOU WON THE MEDAL: 
 class Bot(BaseBot):
     async def on_start(self, session_metadata: SessionMetadata) -> None:
         print("working")
-        await self.highrise.walk_to(Position(10 , 1 , 17 , "FrontRight"))
+        await self.highrise.walk_to(Position(16 , 0 , 27 , "FrontLeft"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala")   
         await self.highrise.send_whisper(user.id,f"Bienvenido a Fenix CLUB ESpero que disfrute de la sala, y de la buena musica con HR Caserio {user.username} si necesitas ayuda usa !help  ")
