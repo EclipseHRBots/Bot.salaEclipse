@@ -5,7 +5,7 @@ from highrise import*
 from highrise import BaseBot,User,CurrencyItem,Item,Position
 from highrise.models import SessionMetadata
 
-moderators = ["","","Hdaniel.07 ","Nezux","ElCordobez","",""]
+moderators = ["","","Hdaniel.07 ","Nezux","ElCordobez","Hdaniel.07",""]
 
 casa = ["I Marry You 💍","Of course I do 💍❤️","I don't want to 💍💔","Of course I don't 💍💔","I Love You Of course I marry you 💍"]
 
